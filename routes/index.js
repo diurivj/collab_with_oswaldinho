@@ -4,11 +4,12 @@ const router  = express.Router();
 /* GET home page */
 
 router.get('/', (req, res, next) => {
-  res.send(`Que pedo putita, no es cierto.
-    .
-      .
-        . 
-    vaya vaya tacubaya, si no conoce mejor ni venga 😎
+  res.send(`
+    <h1> 
+      Hola Oswaldo
+      qué onda bro 🔥
+      saca las chelas prro!!! 😎
+    </h1>
   `)
 });
 

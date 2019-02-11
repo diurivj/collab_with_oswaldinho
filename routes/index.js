@@ -14,7 +14,11 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/nuevaruta', (req, res)=>{
-  res.send('Ya vamos a beber!!!')
+  res.send('Ya vamos a beber!!!, saca el Gin 💅🏽')
+})
+
+router.get('/iwork', (req, res)=>{
+  res.send('Ya hice toda el app maldito 🖕🏽')
 })
 
 module.exports = router;

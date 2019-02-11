@@ -7,6 +7,7 @@ router.get('/', (req, res, next) => {
   res.send(`
     <h1> 
       Hola Oswaldo
+      qué onda bro 🔥
     </h1>
   `)
 });
